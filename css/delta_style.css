@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ajustes dos Card Valores*/
+.valores_container{
+    display: flex;
+    justify-content: center;
+}
+
+.card i{
+    text-align: center;
+}
