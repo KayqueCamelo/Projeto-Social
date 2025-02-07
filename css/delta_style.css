@@ -13,3 +13,8 @@
 .card i{
     text-align: center;
 }
+.content_direitos{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
