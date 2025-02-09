@@ -7,23 +7,30 @@
 /* Ajustes dos Card Valores*/
 .valores_container{
     display: flex;
-    
     justify-content: center;
 }
-
 
 .card i{
     text-align: center;
     margin-top: 15px;
     font-size: 50px;
 }
-.card-title{
-    text-align: center;
-}
-/* footer */
 .content_direitos{
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.banner {
+    background-image: url(https://site-antigo.socioambiental.org/sites/blog.socioambiental.org/files/styles/twitter-card/public/nsa/fora_garimpo-3_0.jpg?itok=4ng1qYBP);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+    background-position-x: center;
+    height: 90vh;
+}
+
+.img_carousel {
+    height: 90vh;
+    object-fit: cover;
 }
