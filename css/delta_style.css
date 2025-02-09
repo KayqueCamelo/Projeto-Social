@@ -7,14 +7,20 @@
 /* Ajustes dos Card Valores*/
 .valores_container{
     display: flex;
+    
     justify-content: center;
 }
+
 
 .card i{
     text-align: center;
     margin-top: 15px;
     font-size: 50px;
 }
+.card-title{
+    text-align: center;
+}
+/* footer */
 .content_direitos{
     color: #fff;
     display: flex;
