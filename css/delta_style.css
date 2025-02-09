@@ -12,9 +12,12 @@
 
 .card i{
     text-align: center;
+    margin-top: 15px;
+    font-size: 50px;
 }
 .content_direitos{
     color: #fff;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
