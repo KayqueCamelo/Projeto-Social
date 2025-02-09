@@ -9,11 +9,18 @@
     display: flex;
     justify-content: center;
 }
-
+/* Ajuste do Card */
 .card i{
     text-align: center;
     margin-top: 15px;
     font-size: 50px;
+    color: #ad0505;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
 }
 .content_direitos{
     color: #fff;
@@ -21,7 +28,8 @@
     justify-content: center;
     align-items: center;
 }
-.banner {
+/* Styles dos bannners paginas (Quem Somos, ONGs de Apoio e Denuncia) */
+.banner-quem-somo {
     background-image: url(https://site-antigo.socioambiental.org/sites/blog.socioambiental.org/files/styles/twitter-card/public/nsa/fora_garimpo-3_0.jpg?itok=4ng1qYBP);
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,4 +41,26 @@
 .img_carousel {
     height: 90vh;
     object-fit: cover;
+}
+
+/* Banner Pagina ONGs de Apoio */
+.banner-ongs-apoio {
+    background-image: url(https://i.pinimg.com/736x/fa/1d/d1/fa1dd1e02f6bc1de825a7f62e11f443c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+    background-position-x: center;
+    height: 90vh;
+}
+/* Ajustes da Table */
+.content-logo{
+    width: 100px;
+    
+}
+.content-logo img{
+    border-radius: 8px;
+    width: 50px;
+}
+.content-infor{
+    vertical-align: middle;
 }
