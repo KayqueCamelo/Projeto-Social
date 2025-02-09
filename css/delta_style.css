@@ -52,3 +52,15 @@
     background-position-x: center;
     height: 90vh;
 }
+/* Ajustes da Table */
+.content-logo{
+    width: 100px;
+    
+}
+.content-logo img{
+    border-radius: 8px;
+    width: 50px;
+}
+.content-infor{
+    vertical-align: middle;
+}
