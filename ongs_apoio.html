@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quem Somos</title>
+    <title>ONGs de Apoio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -39,97 +39,145 @@
     </header>
 
     <main>
-        <!-- Inicio do Banner Carrosel -->
-        <div id="carouselExampleCaptions" class="carousel slide h-10 mb-5">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <!-- Início do banner -->
+          <div class="row mb-5">
+            <div class="col-12 banner-ongs-apoio d-flex justify-content-end align-items-end">
+                <div class="text-center offset-4 m-5 p-2 bg-light text-bg-light border-5 border-success border-bottom rounded">
+                  <h4> Unidos contra o garimpo ilegal</h4><br>
+                  <p>
+                    Por meio de pequenas ações, todos podem contribuir para uma causa maior.
+                  </p>
+                </div>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://images.pexels.com/photos/953969/pexels-photo-953969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://imagens.ebc.com.br/vNS8u5zPtGZF_U1aOwgAH3X1c9Q=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2023-01-30t191542z_1_lynxmpej0t0ry_rtroptp_4_brazil-indigenous-miners.jpg?itok=4PWTpNTS" class="d-block w-100" alt="Garimpo">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://observatorio3setor.org.br/wp-content/uploads/2022/04/RS48945_Yanomami-ISA-75-lpr.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-        <!-- Fim do Carrosel -->
+            <!-- Fim do banner -->
         
         <!-- Inicio Seção de Apresentação -->
          <section class="col-8 m-auto mb-5">
-            <h2>Sobre a empresa</h2>
+            <h2>ONGs de Apoio</h2>
             <p class="fs-5">
               Somos a união de pessoas com a intenção de combater o garimpo ilegal, defender a vida e preservar os povos indígenas utilizando um site com informações claras, verídicas e com senso de justiça
             </p>
          </section>
          <!--Fim Seção de Apresentação  -->
 
-         <!-- Inicio dos Valores -->
+         <!-- Inicio das Refências -->
          <section>
           <div class="row row-cols-1 row-cols-md-3 g-4 m-auto mb-5 valores_container">
+            <!-- Card suporte -->
             <div class="col" style="width: 300px;">
               <div class="card h-100">
-                <i class="fa-solid fa-bullseye"></i>
+                <img src="https://i.pinimg.com/736x/7c/14/42/7c1442a91e7f8422cb35e69249188d36.jpg" alt="Povo Yanomami" class="img-fluid">
                 <div class="card-body">
-                  <h5 class="card-title">Missão</h5>
                   <p class="card-text">
-                    Fazer conhecer e combater a prática do garimpo ilegal na Amazônia, através de informações confiáveis e canais de denúncia.
+                    Os povos indígenas precisam de atenção e suporte
                   </p>
                 </div>
+                <!-- Button trigger modal -->
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#suporte">
+                Leia mais
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="suporte" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Suporte aos Yanomami</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Como abordado no programa da TV Câmara, que foi ao ar em 27 de janeiro de 2023, a tragedia humanitária do povo Yanomami escancarou os prejuízos que o garimpo ilegal traz à Amazonia ao falar sobre o ciclo de irregularidades presentes no interior da floresta, ligadas fortemente a interesses políticos e financeiros de grandes empresas.
+                    </div>
+                    <div class="modal-footer">
+                        <h6>Fontes de Refência</h6>
+                      <div class="refencia-pesquisa">
+                        <a href="https://www.camara.leg.br/tv/935635-tragedia-humanitaria-dos-yanomami/" target="_blank">Artigo Camara</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               </div>
             </div>
+
+            <!-- Card garimpo -->
             <div class="col" style="width: 300px;">
               <div class="card h-100">
-                <i class="fa-solid fa-eye-low-vision"></i>
+                <img src="https://i.pinimg.com/736x/5d/e7/0f/5de70fb7223c980079eeb3bb1f860e72.jpg" alt="Povo Yanomami" class="img-fluid">
                 <div class="card-body">
-                  <h5 class="card-title">Visão</h5>
                   <p class="card-text">
-                    Ter o projeto expandido para todo o território nacional no prazo de 5 anos
+                    Segundo a Agência Nacional de Mineração, o garimpo ilegal é uma atividade econômica que viola a lei por utilizar mais de 50 hectares e também ser realizado em terra indígena.
                   </p>
                 </div>
+                <!-- Button trigger modal -->
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#base-garimpo">
+                Leia mais
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="base-garimpo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Base de Garimpo Ilegal</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      A ONG Greempeace explica que o garimpo ilegal se concentra na extração de estanho e principalmente ouro, onde na rota do ouro a sua venda é fácil pois basta que o vendedor omita a origem do material com um documento chamado Permissão de Lavra e Garimpo (PLG) contendo informações de origem falsas e junto a seus dados pessoais faça a venda do mesmo nos Postos de Compra de Ouro (PCO).
+                    </div>
+                    <div class="modal-footer">
+                      <h6>Fontes de Refência</h6>
+                      <div class="refencia-pesquisa">
+                        <a href="https://www.camara.leg.br/tv/935635-tragedia-humanitaria-dos-yanomami/" target="_blank">Artigo Gov</a> | 
+                        <a href="https://www.camara.leg.br/tv/935635-tragedia-humanitaria-dos-yanomami/" target="_blank">Artigo Greenpeace</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               </div>
             </div>
+
+            <!-- Card protesto -->
             <div class="col" style="width: 300px;">
               <div class="card h-100">
-                <i class="fa-solid fa-hands-holding-child"></i>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4FxV8nJBdTvG8pn92ZYoHOL25T-vk1-r-cA&s" alt="Povo Yanomami" class="img-fluid" style="height: 45%;">
                 <div class="card-body">
-                  <h5 class="card-title">Valores</h5>
-                  <ol>
-                    <li>Respeito a dignidade humana</li>
-                    <li>Transparência nas informações ao público</li>
-                    <li>Respeito e conformidade as ODS's</li>
-                  </ol>
+                  <p class="card-text">
+                    Os impactos do garimpo ilegal são extensos, prejudicando os povos indígenas gerando conflitos que envolvem violência e luta por sua sobrevivência.
+                  </p>
                 </div>
+                <!-- Button trigger modal -->
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#conflitos">
+                Leia mais
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="conflitos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Conflitos Yanomami com garimpeiros ilegais</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Segundo o Greempeace os garimpeiros ao chegarem nos locais desejados, aliciam os indígenas com álcool, dinheiro, barcos e falsas promessas em troca de “permissão” para explorar o território e lá residirem seus negócios; ademais, não é incomum se encontrar a existência de trabalhos forçados e exploração sexual infanto-juvenil.
+                    </div>
+                    <div class="modal-footer">
+                      <h6>Fontes de Refência</h6>
+                      <div class="refencia-pesquisa">
+                        <a href=https://www.greenpeace.org/brasil/blog/garimpo-ilegal-e-seus-impactos/ target="_blank">Artigo Greenpeace</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               </div>
             </div>
           </div>
          </section>
-         <!-- Fim dos Valores -->
+         <!-- Fim das Refências -->
     </main>
 
     <footer>
